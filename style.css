@@ -1,0 +1,63 @@
+@import url('styles/cabeçalho.css');
+@import url('styles/section.css');
+@import url('styles/rodapé.css');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
+
+body {
+    background-image: url("image 1.svg");
+    color: white;
+}
+
+@media (max-width: 768px) {
+    /* Ajusta o cabeçalho */
+    .logo {
+        font-size: 50px;
+    }
+
+    /* Ajusta o título */
+    .titúlo {
+        font-size: 80px;
+        letter-spacing: 5px;
+    }
+
+    /* Ajusta o texto */
+    .texto {
+        font-size: 35px;
+        line-height: 1.5;
+    }
+
+    /* Ajusta os links (botões) */
+    a {
+        font-size: 20px;
+        padding: 12px 30px;
+        margin: 15px 0;  /* Espaçamento vertical */
+        display: block;  /* Coloca os links em coluna */
+        text-align: center; /* Centraliza o texto dos links */
+    }
+}
+
+/* Responsividade para telas muito pequenas (como celulares em modo retrato) */
+@media (max-width: 480px) {
+    .titúlo {
+        font-size: 70px;
+        letter-spacing: 5px;
+    }
+
+    .texto {
+        font-size: 40px;
+    }
+
+    .logo {
+        font-size: 55px;
+    }
+
+    /* Ajusta os links (botões) */
+    a {
+        font-size: 24px;
+        padding: 18px 40px;
+        margin: 15px 0;  /* Espaçamento vertical */
+        display: block;  /* Coloca os links em coluna */
+        text-align: center; /* Centraliza o texto dos links */
+    }
+}

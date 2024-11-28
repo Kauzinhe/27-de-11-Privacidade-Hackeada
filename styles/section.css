@@ -1,0 +1,27 @@
+.titúlo {
+    font-family: Bangers;
+    font-size: 75px;
+    letter-spacing: 5px;
+    margin: 0;
+}
+
+a {
+    margin-top: 15px;
+    background-color: white;  /* Fundo branco */
+    color: black;             /* Letra preta */
+    text-decoration: none;    /* Remove o sublinhado */
+    padding: 10px 20px;       /* Espaçamento interno */
+    border-radius: 2px;       /* Bordas arredondadas */
+    margin: 10px;              /* Espaçamento entre os links */
+    display: inline-block;    /* Garante que os links fiquem lado a lado */
+}
+
+/* Adiciona um efeito quando o mouse passa sobre os links */
+a:hover {
+    background-color: #f0f0f0;  /* Fundo cinza claro ao passar o mouse */
+    color: #333;                /* Cor da letra um pouco mais escura ao passar o mouse */
+}
+
+.texto {
+    font-size: 30px;
+}
